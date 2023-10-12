@@ -28,6 +28,12 @@ namespace ConsoleApp1
         }
         static void Main(string[] args)
         {
+            int size = Convert.ToInt32(Console.ReadLine());
+
+            int[] arr = new int[size];
+            InitArray(arr);
+            PrintArray(arr);
+
         }
     }
 }
